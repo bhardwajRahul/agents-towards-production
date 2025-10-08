@@ -163,7 +163,7 @@ A regular click on "Visit Site" leaves the repo (use Ctrl‑/⌘‑click to keep
         alt="Cognee - AI memory system for building intelligent knowledge graphs that learn from data and provide contextual insights">
     </a><br>
     <sub><span style="white-space:nowrap;">AI Memory & Knowledge Graphs</span><br>
-      <a href="https://cognee.ai">
+      <a href="https://www.cognee.ai/?utm_source=github&utm_medium=nir_diamant&utm_campaign=sponsorhip_launch_2025-09&utm_content=notebook">
         <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Cognee AI memory platform website">
       </a>
     </sub>
