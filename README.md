@@ -21,12 +21,11 @@
 
 <div align="center">
 
-## 💎 Sponsors
+## 💎 Tutorial Sponsors
 
 <p align="center"><em>
-Support from our sponsors helps make this project possible.<br>
-Click a logo to open the step‑by‑step tutorial.<br>
-A regular click on "Visit Site" leaves the repo (use Ctrl‑/⌘‑click to keep this page open).
+Companies that have contributed step-by-step tutorials to this repository.<br>
+Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page open.
 </em></p>
 
 <!-- ─────────── 1st row – 4 sponsors ─────────── -->
@@ -185,6 +184,37 @@ A regular click on "Visit Site" leaves the repo (use Ctrl‑/⌘‑click to keep
 </tr>
 </table>
 
+## 💎 General Sponsors
+
+<p align="center"><em>
+Companies that support this project through partnerships and resources.<br>
+Click a logo to visit their website.
+</em></p>
+
+<!-- ─────────── General sponsors ─────────── -->
+<table align="center" cellpadding="20"
+       style="table-layout:fixed; width:100%; border-collapse:collapse;">
+<tr align="center" valign="top">
+
+  <!-- CodeRabbit -->
+  <td width="200" valign="bottom">
+    <a href="https://coderabbit.link/nir" title="Visit CodeRabbit">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/coderabbit_Dark_Type_Mark.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/coderabbit_Light_Type_Mark_Orange.png"
+             height="44" style="max-width:180px;" alt="CodeRabbit - AI-powered code review and automated pull request analysis">
+      </picture>
+    </a><br>
+    <sub><span style="white-space:nowrap;">AI Code Review</span><br>
+      <a href="https://coderabbit.link/nir">
+        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit CodeRabbit AI code review platform">
+      </a>
+    </sub>
+  </td>
+
+</tr>
+</table>
 
 <div align="center">
 
