@@ -215,9 +215,6 @@ Click a logo to visit their website.
     </sub>
   </td>
 
-</tr>
-<tr align="center" valign="top">
-
   <!-- iGPT -->
   <td width="200" valign="bottom">
     <a href="https://www.igpt.ai/?utm_source=nir_diamant" title="Visit iGPT">
@@ -237,8 +234,6 @@ Click a logo to visit their website.
       <small><em>iGPT is onboarding in batches — click the logo to join the waitlist.</em></small>
     </sub>
   </td>
-
-</tr>
 </table>
 
 <div align="center">
