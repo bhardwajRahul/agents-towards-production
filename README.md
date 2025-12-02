@@ -334,6 +334,23 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
   </tr>
 </table>
 
+### 🔍 RAG & Knowledge Management
+
+<table width="100%">
+  <tr style="background-color:#f8f9fa">
+    <th width="30%">Tutorial</th>
+    <th width="50%">Description</th>
+    <th width="20%">View</th>
+  </tr>
+  <tr>
+    <td>Production-Ready RAG Agents with Contextual AI (Contextual AI)</td>
+    <td>Build enterprise-grade RAG systems in 15 minutes using Contextual AI's managed platform. Learn document processing, intelligent indexing, agent deployment, and automated evaluation with LMUnit testing framework for financial document analysis.</td>
+    <td align="center">
+      <a href="tutorials/agent-RAG-with-Contextual"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+</table>
+
 ### 🧠 Memory
 
 <table width="100%">
@@ -358,7 +375,7 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
   </tr>
 </table>
 
-### 🔍 RAG & Knowledge Management
+### 🚀 Deployment
 
 <table width="100%">
   <tr style="background-color:#f8f9fa">
@@ -367,10 +384,24 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <th width="20%">View</th>
   </tr>
   <tr>
-    <td>Production-Ready RAG Agents with Contextual AI (Contextual AI)</td>
-    <td>Build enterprise-grade RAG systems in 15 minutes using Contextual AI's managed platform. Learn document processing, intelligent indexing, agent deployment, and automated evaluation with LMUnit testing framework for financial document analysis.</td>
+    <td>AWS Bedrock AgentCore: Managed Agent Deployment <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
+    <td>Deploy and manage AI agents on AWS Bedrock AgentCore Runtime. Learn to transform local agents into production-ready managed services with automatic infrastructure, request tracking, and standardized communication patterns.</td>
     <td align="center">
-      <a href="tutorials/agent-RAG-with-Contextual"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/aws_agentcore"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>Containerizing Agents with Docker</td>
+    <td>Containerize agents for portability and scalability. Learn foundational patterns for running agents in containers across environments.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/docker-intro"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>On-Prem LLM Deployment with Ollama</td>
+    <td>Run and interact with large language models locally. Replace cloud APIs with on-prem models for privacy, cost control, and low-latency agent workflows.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/on-prem-llm-ollama"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>
@@ -410,8 +441,6 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
   </tr>
 </table>
 
-
-
 ### 🔒 Security
 
 <table width="100%">
@@ -432,6 +461,24 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <td>Hands-on prompt injection attacks, defenses, and automated security testing for AI agents.</td>
     <td align="center">
       <a href="tutorials/agent-security-apex"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+</table>
+
+### 👥 Multi-agent Coordination
+
+<table width="100%">
+  <tr style="background-color:#f8f9fa">
+    <th width="30%">Tutorial</th>
+    <th width="50%">Description</th>
+    <th width="20%">View</th>
+  </tr>
+
+  <tr>
+    <td>Multi-Agent Communication with A2A Protocol</td>
+    <td>Simulate collaborative agent workflows and message exchange using open communication protocols for interoperability.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/a2a"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>
@@ -463,37 +510,6 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <td>Create and deploy agents as performant APIs, supporting both synchronous and streaming endpoints.</td>
     <td align="center">
       <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/fastapi-agent"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-</table>
-
-### 🚀 Deployment
-
-<table width="100%">
-  <tr style="background-color:#f8f9fa">
-    <th width="30%">Tutorial</th>
-    <th width="50%">Description</th>
-    <th width="20%">View</th>
-  </tr>
-  <tr>
-    <td>Containerizing Agents with Docker</td>
-    <td>Containerize agents for portability and scalability. Learn foundational patterns for running agents in containers across environments.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/docker-intro"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>On-Prem LLM Deployment with Ollama</td>
-    <td>Run and interact with large language models locally. Replace cloud APIs with on-prem models for privacy, cost control, and low-latency agent workflows.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/on-prem-llm-ollama"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>AWS Bedrock AgentCore: Managed Agent Deployment</td>
-    <td>Deploy and manage AI agents on AWS Bedrock AgentCore Runtime. Learn to transform local agents into production-ready managed services with automatic infrastructure, request tracking, and standardized communication patterns.</td>
-    <td align="center">
-      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/aws_agentcore"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>
