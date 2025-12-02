@@ -1,3 +1,0 @@
-Gumify is an AI image processing startup that makes people's mouths in pictures have more sizeable gums.
-They use our models for the image processing but are finding that tweaking specific facial features does not yield consistent results.
-They will send us a few recent examples.

@@ -1,5 +1,0 @@
-calorify allows you to estimate the calorie count of a meal based on an image of it.
-They use our models to identify the individual ingredients and to estimate quantities for them. They then plug into a nutrition facts database and compute the final calorie count.
-We do really well on food item recognition as well as quantity estimation.
-Where they're complaining is that any image that includes part of a human face throws our models off completely.
-A common failure mode for example is that we confuse interpret teeth to be sugar drops rather which means Calorify can't exclude them from the calorie count.

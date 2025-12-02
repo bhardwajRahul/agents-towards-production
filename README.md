@@ -128,24 +128,6 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
     </sub>
   </td>
 
-  <!-- Portia -->
-  <td width="200" valign="bottom">
-    <a href="tutorials/fullstack-agents-with-portia" title="Open Portia tutorial">
-      <picture>
-        <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_portia_white_tight.png">
-        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_portia_black_tight.png"
-             height="44" style="max-width:180px;" alt="Portia - AI framework for building predictable, stateful, and authenticated agentic workflows">
-      </picture>
-    </a><br>
-    <sub><span style="white-space:nowrap;">AI Agent Framework</span><br>
-             <a href="https://portiaai.org/3J8gAwY">
-         <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Portia AI framework website">
-       </a>
-    </sub>
-  </td>
-
-
 </tr>
 </table>
 
@@ -411,23 +393,6 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
   </tr>
 </table>
 
-### 🏗️ Full-Stack Applications
-
-<table width="100%">
-  <tr style="background-color:#f8f9fa">
-    <th width="30%">Tutorial</th>
-    <th width="50%">Description</th>
-    <th width="20%">View</th>
-  </tr>
-  <tr>
-    <td>Full-Stack Agent Applications with Portia</td>
-    <td>Master Portia AI framework for building predictable, stateful, and authenticated agentic workflows. Includes SteelThread evaluation framework for real-time production monitoring and offline testing, with hands-on UXR data analysis and Notion integration examples.</td>
-    <td align="center">
-      <a href="tutorials/fullstack-agents-with-portia"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
-    </td>
-  </tr>
-</table>
-
 ### 🚀 GPU Deployment
 
 <table width="100%">
@@ -522,6 +487,13 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <td>Run and interact with large language models locally. Replace cloud APIs with on-prem models for privacy, cost control, and low-latency agent workflows.</td>
     <td align="center">
       <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/on-prem-llm-ollama"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>AWS Bedrock AgentCore: Managed Agent Deployment</td>
+    <td>Deploy and manage AI agents on AWS Bedrock AgentCore Runtime. Learn to transform local agents into production-ready managed services with automatic infrastructure, request tracking, and standardized communication patterns.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/aws_agentcore"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
 </table>

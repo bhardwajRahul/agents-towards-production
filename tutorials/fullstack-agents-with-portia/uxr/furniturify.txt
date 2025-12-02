@@ -1,3 +1,0 @@
-Furniturify allows people to visualise a piece of furniture they find online in their own house.
-Furniturify have been using us for the past six months and finding that our models except at object recognition and collision detection is amazing.
-They did flag however that we struggle with placing the furniture in an image that contains people in it. They will send us an example where a sofa was sticking out of a person's mouth in a room for example, rather than being added in the corner of the room as instructed.
