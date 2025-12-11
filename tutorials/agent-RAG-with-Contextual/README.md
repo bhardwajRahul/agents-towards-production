@@ -7,8 +7,9 @@
 This tutorial shows how to build Retrieval-Augmented Generation (RAG) agents using Contextual AI's managed platform. You'll learn to create a RAG pipeline for financial document analysis, which can help simplify the process of building production-ready systems.
 
 <div align="center">
-<img src="https://contextual.ai/wp-content/uploads/2025/08/contextual-architecture-1.png" alt="Contextual Architecture" width="800"/>
+<img width="1800" height="612" alt="contextual_architecture" src="https://github.com/user-attachments/assets/a0d8da57-b6b4-49d3-8a5a-4549b73b201c" />
 </div>
+
 
 ## What You'll Learn
 

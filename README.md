@@ -65,7 +65,7 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
       <picture>
         <source media="(prefers-color-scheme: dark)"
                 srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_contextual_white.png">
-        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_contextual_black.png"
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_contextual_white.png"
              height="44" style="max-width:180px;" alt="Contextual AI - Production-ready RAG platform for building enterprise-grade retrieval augmented generation systems">
       </picture>
     </a><br>
