@@ -12,11 +12,11 @@ Build intelligent AI agents with persistent, evolving memory using Mem0's hybrid
 
 ## **📓 Tutorial**
 
-`[Mem0 Tutorial Notebook](mem0_tutorial.ipynb)`
+[Mem0 Tutorial Notebook](mem0_tutorial.ipynb)
 
 ## **🚀 Run in Google Colab**
 
-`[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NirDiamant/agents-towards-production/blob/main/tutorials/agent-memory-with-mem0/mem0_tutorial.ipynb)`
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NirDiamant/agents-towards-production/blob/main/tutorials/agent-memory-with-mem0/mem0_tutorial.ipynb)
 
 ## **Requirements**
 
