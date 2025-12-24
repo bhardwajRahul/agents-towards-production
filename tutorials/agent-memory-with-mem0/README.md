@@ -1,3 +1,5 @@
+![](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=tutorials--agent-memory-with-mem0--readme)
+
 # Persistent Memory for AI Agents with Mem0
 
 Build intelligent AI agents with persistent, evolving memory using Mem0's hybrid storage architecture. Learn to implement adaptive memory systems that continuously learn from user interactions and self-improve over time.
