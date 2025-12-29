@@ -136,18 +136,19 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
        style="table-layout:fixed; width:100%; margin-top:16px; border-collapse:collapse;">
 <tr align="center" valign="top">
 
-  <!-- Cognee -->
+  <!-- Mem0 -->
   <td width="200" valign="bottom">
-    <a href="tutorials/ai-memory-with-cognee" title="Open Cognee tutorial">
-      <img
-        src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_cognee.png"
-        height="44"
-        style="max-width:180px;"
-        alt="Cognee - AI memory system for building intelligent knowledge graphs that learn from data and provide contextual insights">
+    <a href="tutorials/agent-memory-with-mem0" title="Open Mem0 tutorial">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo Dark.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo.png"
+             height="44" style="max-width:180px;" alt="Mem0 - Self-improving memory system for AI agents with hybrid vector and graph storage">
+      </picture>
     </a><br>
-    <sub><span style="white-space:nowrap;">AI Memory & Knowledge Graphs</span><br>
-      <a href="https://www.cognee.ai/?utm_source=github&utm_medium=nir_diamant&utm_campaign=sponsorhip_launch_2025-09&utm_content=notebook">
-        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Cognee AI memory platform website">
+    <sub><span style="white-space:nowrap;">Self-Improving AI Memory</span><br>
+      <a href="https://mem0.dev/github/nir">
+        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Mem0 AI memory platform website">
       </a>
     </sub>
   </td>
@@ -217,22 +218,6 @@ Click a logo to visit their website.
     </sub>
   </td>
 
-  <!-- Mem0 -->
-  <td width="200" valign="bottom">
-    <a href="https://mem0.dev/github/nir" title="Visit Mem0">
-      <picture>
-        <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo Dark.png">
-        <img src="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo.png"
-             height="44" style="max-width:180px;" alt="Mem0 - Self-improving memory system for AI agents with hybrid vector and graph storage">
-      </picture>
-    </a><br>
-    <sub><span style="white-space:nowrap;">Self-Improving AI Memory</span><br>
-      <a href="https://mem0.dev/github/nir">
-        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Mem0 AI memory platform website">
-      </a>
-    </sub>
-  </td>
 </table>
 
 <div align="center">
