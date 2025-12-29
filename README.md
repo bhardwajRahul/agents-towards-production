@@ -141,8 +141,8 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
     <a href="tutorials/agent-memory-with-mem0" title="Open Mem0 tutorial">
       <picture>
         <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo Dark.png">
-        <img src="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo.png"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo Dark.png"
              height="44" style="max-width:180px;" alt="Mem0 - Self-improving memory system for AI agents with hybrid vector and graph storage">
       </picture>
     </a><br>
