@@ -216,6 +216,23 @@ Click a logo to visit their website.
       <small><em>iGPT is onboarding in batches — click the logo to join the waitlist.</em></small>
     </sub>
   </td>
+
+  <!-- Mem0 -->
+  <td width="200" valign="bottom">
+    <a href="https://mem0.dev/github/nir" title="Visit Mem0">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo Dark.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo.png"
+             height="44" style="max-width:180px;" alt="Mem0 - Self-improving memory system for AI agents with hybrid vector and graph storage">
+      </picture>
+    </a><br>
+    <sub><span style="white-space:nowrap;">Self-Improving AI Memory</span><br>
+      <a href="https://mem0.dev/github/nir">
+        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Mem0 AI memory platform website">
+      </a>
+    </sub>
+  </td>
 </table>
 
 <div align="center">
@@ -367,7 +384,14 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     </td>
   </tr>
   <tr>
-    <td>AI Memory with Cognee <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
+    <td>Self-Improving Memory with Mem0: Hybrid Vector & Graph Storage <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
+    <td>Build intelligent agents with self-improving memory that automatically extracts insights, resolves conflicts, and evolves with each interaction. Learn hybrid memory architecture combining vector search for semantic recall and graph databases for relationship mapping.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-memory-with-mem0"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>AI Memory with Cognee</td>
     <td>Build intelligent AI memory systems that learn from Python's creator and improve your development workflow. Transform scattered development data into unified knowledge graphs with contextual insights.</td>
     <td align="center">
       <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/ai-memory-with-cognee"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
