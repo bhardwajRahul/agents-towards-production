@@ -198,26 +198,6 @@ Click a logo to visit their website.
     </sub>
   </td>
 
-  <!-- iGPT -->
-  <td width="200" valign="bottom">
-    <a href="https://www.igpt.ai/?utm_source=nir_diamant" title="Visit iGPT">
-      <picture>
-        <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/iGPT-logo-white.png">
-        <img src="assets/repos_images/sponsors_logos/trimmed_padded/iGPT-logo-Black.png"
-             height="44" style="max-width:180px;" alt="iGPT - Intelligent AI platform">
-      </picture>
-    </a><br>
-    <sub>
-      <span style="white-space:nowrap;">Intelligent AI Platform</span><br>
-      <a href="https://www.igpt.ai/?utm_source=nir_diamant">
-        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit iGPT website">
-      </a>
-      <br>
-      <small><em>iGPT is onboarding in batches — click the logo to join the waitlist.</em></small>
-    </sub>
-  </td>
-
 </table>
 
 <div align="center">
