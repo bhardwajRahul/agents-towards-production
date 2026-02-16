@@ -121,8 +121,8 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
              height="44" style="max-width:180px;" alt="Arcade - Multi-user tool calling platform for secure OAuth2 authentication and human-in-the-loop safety controls">
       </picture>
     </a><br>
-    <sub><span style="white-space:nowrap;">Secure Tool Calling</span><br>
-      <a href="https://api.arcade.dev/signup?utm_source=github&utm_medium=notebook&utm_campaign=nir_diamant&utm_content=tutorial">
+    <sub><span style="white-space:nowrap;">MCP Runtime</span><br>
+      <a href="https://docs.arcade.dev/en/home?utm_source=github&utm_medium=paid_sponsorship&utm_campaign=agents_toward_prod&utm_content=readme_placement">
         <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Arcade multi-user tool integration platform website">
       </a>
     </sub>
