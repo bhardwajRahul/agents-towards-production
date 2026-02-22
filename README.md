@@ -55,7 +55,7 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
     <a href="tutorials/agent-memory-with-redis" title="Open Redis tutorial">
       <picture>
         <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_Redis_white.png">
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_Redis_white.svg">
         <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_Redis.png"
              height="44" style="max-width:180px;" alt="Redis - In-memory database and vector storage for AI agent memory, caching, and real-time data processing">
       </picture>
@@ -89,7 +89,7 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
     <a href="tutorials/agent-with-brightdata" title="Open Bright Data tutorial">
       <picture>
         <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_brightdata_white.png">
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_brightdata_white.svg">
         <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_brightdata.png"
              height="44" style="max-width:180px;" alt="Bright Data - Web scraping and data collection platform for AI training and agent data gathering">
       </picture>
@@ -149,7 +149,7 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
     <a href="tutorials/kotlin-agent-with-koog" title="Open JetBrains Koog tutorial">
       <picture>
         <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_jetbrains_white.png">
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_jetbrains_white.svg">
         <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_jetbrains.png"
              height="44" style="max-width:180px;" alt="JetBrains - Creator of Kotlin and the Koog AI agent framework for building intelligent applications on the JVM">
       </picture>
@@ -174,7 +174,7 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
     <a href="tutorials/agent-memory-with-mem0" title="Open Mem0 tutorial">
       <picture>
         <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo.png">
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/Mem0%20Word%20Logo.png">
         <img src="assets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo Dark.png"
              height="44" style="max-width:180px;" alt="Mem0 - Self-improving memory system for AI agents with hybrid vector and graph storage">
       </picture>
@@ -191,7 +191,7 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
     <a href="tutorials/runpod-gpu-deploy" title="Open RunPod tutorial">
       <picture>
         <source media="(prefers-color-scheme: dark)"
-                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_runpod_white.png">
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_runpod_white.svg">
         <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_runpod.svg"
              height="44" style="max-width:180px;" alt="RunPod - GPU cloud computing platform for training and deploying AI models and agents at scale">
       </picture>
