@@ -11,7 +11,6 @@ graph TD
     A[Project Setup] --> B[Step 1: Basic Agent]
     B --> C[Step 2: Agent with Tools]
     C --> D[Step 3: Structured Output]
-    D --> E[Next Steps]
 
     B -- "LLM call" --> B1[Send prompt to model]
     B1 --> B2[Receive text response]
@@ -82,7 +81,6 @@ Below is a walkthrough of the `build.gradle.kts` so you understand what each dep
 plugins {
     kotlin("jvm") version "2.1.0"
     kotlin("plugin.serialization") version "2.1.0"
-    application
 }
 
 repositories {
@@ -103,7 +101,11 @@ dependencies {
     implementation("org.slf4j:slf4j-nop:2.0.16")
 }
 
-// Custom tasks for running each tutorial step individually
+// Allow running each step file individually:
+//   ./gradlew step1  ->  runs Step1_HelloAgent.kt
+//   ./gradlew step2  ->  runs Step2_AgentWithTools.kt
+//   ./gradlew step3  ->  runs Step3_StructuredOutput.kt
+
 tasks.register<JavaExec>("step1") {
     group = "tutorial"
     description = "Run Step 1: Hello Agent"

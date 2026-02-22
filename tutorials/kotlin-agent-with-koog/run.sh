@@ -5,6 +5,9 @@
 # -------------------------------------------------------
 set -euo pipefail
 
+# Ensure we run from the tutorial directory, even if invoked from elsewhere.
+cd "$(dirname "$0")"
+
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -86,7 +89,13 @@ run_step() {
     fi
 
     echo ""
-    ./gradlew "$step" --quiet 2>&1
+    if ! ./gradlew "$step" --quiet 2>&1; then
+        echo ""
+        echo -e "${RED}Step failed. Check the error above for details.${NC}"
+        echo -e "Common fixes: verify your OPENAI_API_KEY is valid, and that JDK 17+ is installed."
+        echo ""
+        return 1
+    fi
     echo ""
     echo -e "${GREEN}Done.${NC}"
 }

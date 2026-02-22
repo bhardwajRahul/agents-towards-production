@@ -6,6 +6,8 @@ build/
 .idea/
 *.iml
 .vscode/
+out/
+local.properties
 
 # OS
 .DS_Store

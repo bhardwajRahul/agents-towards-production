@@ -46,4 +46,5 @@ The Gradle wrapper is included -- no need to install Gradle separately. The firs
 A smart assistant that answers questions using custom tools (weather lookup, calculations, fact retrieval) and returns typed, structured responses as Kotlin data classes.
 
 **Total Tutorial Time**: ~25-30 minutes
+
 **Difficulty**: Beginner-Intermediate (Kotlin basics, Gradle)
