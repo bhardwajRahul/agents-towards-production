@@ -501,6 +501,13 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
       <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/fastapi-agent"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>
   </tr>
+  <tr>
+    <td>Building AI Agents in Kotlin with Koog <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
+    <td>Build your first AI agent in Kotlin using JetBrains' Koog framework. Step-by-step from hello world to tool calling and structured output in under 30 minutes.</td>
+    <td align="center">
+      <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/kotlin-agent-with-koog"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
 </table>
 
 ### 🛠️ Model Customization
