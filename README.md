@@ -93,7 +93,7 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
 </tr>
 </table>
 
-<!-- ─────────── 2nd row – 4 sponsors ─────────── -->
+<!-- ─────────── 2nd row – 3 sponsors ─────────── -->
 <table align="center" cellpadding="20"
        style="table-layout:fixed; width:100%; margin-top:16px; border-collapse:collapse;">
 <tr align="center" valign="top">
@@ -124,6 +124,19 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
     <sub><span style="white-space:nowrap;">MCP Runtime</span><br>
       <a href="https://docs.arcade.dev/en/home?utm_source=github&utm_medium=paid_sponsorship&utm_campaign=agents_toward_prod&utm_content=readme_placement">
         <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Arcade multi-user tool integration platform website">
+      </a>
+    </sub>
+  </td>
+
+  <!-- JetBrains -->
+  <td width="200" valign="bottom">
+    <a href="tutorials/kotlin-agent-with-koog" title="Open JetBrains Koog tutorial">
+      <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_jetbrains.png"
+           height="44" style="max-width:180px;" alt="JetBrains - Creator of Kotlin and the Koog AI agent framework for building intelligent applications on the JVM">
+    </a><br>
+    <sub><span style="white-space:nowrap;">Kotlin AI Agent Framework</span><br>
+      <a href="https://www.jetbrains.com">
+        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit JetBrains website">
       </a>
     </sub>
   </td>
