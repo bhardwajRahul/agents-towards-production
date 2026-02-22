@@ -493,32 +493,3 @@ You should see output similar to this:
 Every value above is a typed field on a Kotlin object. `analysis.populationMillions` is a `Double` you can do math with. `analysis.landmarks` is a `List<String>` you can iterate over. There is no string parsing, no regex extraction, no JSON handling in your application code -- the framework handles the entire serialization round-trip.
 
 **Try it yourself:** Change `CityAnalysis` to match something you would actually use -- a `BookReview`, a `BugReport`, or a `RecipeCard`. Add fields, change types, update the system prompt, and re-run. The pattern is the same: define the shape, and Koog fills it in.
-
----
-
-## Troubleshooting
-
-**"JAVA_HOME is not set" or "java: command not found"**
-You need JDK 17+. Install it with `brew install openjdk@17` (macOS), `sudo apt install openjdk-17-jdk` (Ubuntu), or download from [Adoptium](https://adoptium.net/). After installing, restart your terminal.
-
-**First run is very slow**
-This is normal. Gradle downloads itself (~130 MB) plus all dependencies on the first run. Subsequent runs are fast because everything is cached.
-
-**"Set the OPENAI_API_KEY environment variable"**
-Run `export OPENAI_API_KEY="sk-..."` in the same terminal session before running the steps. Alternatively, use `./run.sh` which will prompt you for the key.
-
-**Compilation errors after editing a .kt file**
-Run `./gradlew build` to see the full error output. The most common mistake is a missing import -- check the imports at the top of each step file for reference.
-
-**"401 Unauthorized" or "Invalid API key"**
-Double-check your API key at [platform.openai.com/api-keys](https://platform.openai.com/api-keys). Make sure it starts with `sk-` and has billing enabled.
-
----
-
-## Going Further
-
-The three steps in this tutorial covered the core patterns you need for building AI agents in Kotlin with Koog, but the framework offers considerably more. Swapping LLM providers is a one-line change: replace `simpleOpenAIExecutor` with `simpleAnthropicExecutor` or `simpleGoogleAIExecutor` and update the model reference. Your tools and strategies remain unchanged because Koog abstracts the provider layer.
-
-For standardized tool interoperability, Koog includes built-in support for the Model Context Protocol (MCP), allowing your agent to consume tools exposed by any MCP-compliant server. This means you can connect your Kotlin agent to the same tool ecosystem used by other frameworks and IDEs without writing custom integrations.
-
-When you are ready to serve your agent as an HTTP API, Koog provides Ktor integration through the `koog-ktor` module. This lets you expose your agent as a REST endpoint with streaming support, following patterns similar to what the [FastAPI agent tutorial](https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/fastapi-agent) demonstrates in the Python ecosystem. For containerizing your agent for deployment, the [Docker tutorial](https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/docker-intro) in this repository covers the fundamentals that apply equally to JVM applications. And for deeper exploration of tool protocol standards, the [MCP tutorial](https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/agent-with-mcp) provides a comprehensive walkthrough.
