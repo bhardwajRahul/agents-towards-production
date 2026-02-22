@@ -36,8 +36,12 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
   <!-- LangChain -->
   <td width="200" valign="bottom">
     <a href="tutorials/LangGraph-agent" title="Open LangChain tutorial">
-      <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_langchain.png"
-           height="44" style="max-width:180px;" alt="LangChain - AI agent framework and workflow orchestration platform for building production-ready language model applications">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_langchain_white.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_langchain.png"
+             height="44" style="max-width:180px;" alt="LangChain - AI agent framework and workflow orchestration platform for building production-ready language model applications">
+      </picture>
     </a><br>
     <sub><span style="white-space:nowrap;">Agent Framework &amp; Workflows</span><br>
       <a href="https://langchain.com">
@@ -49,8 +53,12 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
   <!-- Redis -->
   <td width="200" valign="bottom">
     <a href="tutorials/agent-memory-with-redis" title="Open Redis tutorial">
-      <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_Redis.png"
-           height="44" style="max-width:180px;" alt="Redis - In-memory database and vector storage for AI agent memory, caching, and real-time data processing">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_Redis_white.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_Redis.png"
+             height="44" style="max-width:180px;" alt="Redis - In-memory database and vector storage for AI agent memory, caching, and real-time data processing">
+      </picture>
     </a><br>
     <sub><span style="white-space:nowrap;">Memory &amp; Vector Database</span><br>
       <a href="https://redis.io/try-free/?utm_source=nir&utm_medium=cpa&utm_campaign=2025-05-ai_in_production-influencer-nir&utm_content=sd-software_download-7013z000001WaRY">
@@ -79,8 +87,12 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
   <!-- Bright Data -->
   <td width="200" valign="bottom">
     <a href="tutorials/agent-with-brightdata" title="Open Bright Data tutorial">
-      <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_brightdata.png"
-           height="44" style="max-width:180px;" alt="Bright Data - Web scraping and data collection platform for AI training and agent data gathering">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_brightdata_white.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_brightdata.png"
+             height="44" style="max-width:180px;" alt="Bright Data - Web scraping and data collection platform for AI training and agent data gathering">
+      </picture>
     </a><br>
     <sub><span style="white-space:nowrap;">Web Data Platform</span><br>
       <a href="https://brightdata.com/ai?utm_source=brand&utm_campaign=brnd-mkt_github_nirdiamant_logo">
@@ -101,8 +113,12 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
   <!-- Tavily -->
   <td width="200" valign="bottom">
     <a href="tutorials/agent-with-tavily-web-access" title="Open Tavily tutorial">
-      <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_tavily.png"
-           height="44" style="max-width:180px;" alt="Tavily - Real-time web search API for AI agents with intelligent content extraction and summarization">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_tavily_white.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_tavily.png"
+             height="44" style="max-width:180px;" alt="Tavily - Real-time web search API for AI agents with intelligent content extraction and summarization">
+      </picture>
     </a><br>
     <sub><span style="white-space:nowrap;">Real‑time Web Search API</span><br>
       <a href="https://app.tavily.com/home/?utm_source=github&utm_medium=referral&utm_campaign=nir_diamant">
@@ -131,8 +147,12 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
   <!-- JetBrains -->
   <td width="200" valign="bottom">
     <a href="tutorials/kotlin-agent-with-koog" title="Open JetBrains Koog tutorial">
-      <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_jetbrains.png"
-           height="44" style="max-width:180px;" alt="JetBrains - Creator of Kotlin and the Koog AI agent framework for building intelligent applications on the JVM">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_jetbrains_white.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_jetbrains.png"
+             height="44" style="max-width:180px;" alt="JetBrains - Creator of Kotlin and the Koog AI agent framework for building intelligent applications on the JVM">
+      </picture>
     </a><br>
     <sub><span style="white-space:nowrap;">Kotlin AI Agent Framework</span><br>
       <a href="https://www.jetbrains.com">
@@ -169,8 +189,12 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
   <!-- RunPod -->
   <td width="200" valign="bottom">
     <a href="tutorials/runpod-gpu-deploy" title="Open RunPod tutorial">
-      <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_runpod.svg"
-           height="44" style="max-width:180px;" alt="RunPod - GPU cloud computing platform for training and deploying AI models and agents at scale">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_runpod_white.png">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_runpod.svg"
+             height="44" style="max-width:180px;" alt="RunPod - GPU cloud computing platform for training and deploying AI models and agents at scale">
+      </picture>
     </a><br>
     <sub><span style="white-space:nowrap;">GPU Cloud Computing</span><br>
       <a href="https://get.runpod.io/nirdiamant">
