@@ -1,9 +1,7 @@
 import ai.koog.agents.core.agent.AIAgent
 import ai.koog.agents.core.agent.config.AIAgentConfig
-import ai.koog.agents.core.dsl.builder.forwardTo
-import ai.koog.agents.core.dsl.builder.strategy
-import ai.koog.agents.core.dsl.extension.nodeLLMRequestStructured
 import ai.koog.agents.core.tools.annotations.LLMDescription
+import ai.koog.agents.ext.agent.structuredOutputWithToolsStrategy
 import ai.koog.prompt.dsl.prompt
 import ai.koog.prompt.executor.clients.openai.OpenAIModels
 import ai.koog.prompt.executor.llms.all.simpleOpenAIExecutor
@@ -55,22 +53,6 @@ suspend fun main() {
     val apiKey = System.getenv("OPENAI_API_KEY")
         ?: error("Set the OPENAI_API_KEY environment variable before running this example.")
 
-    // A "strategy" is a graph that tells Koog how to process the request.
-    // This one has two nodes:
-    //   1. preparePrompt -- passes the user's input string through unchanged
-    //   2. getStructured -- sends it to the LLM and parses the response into CityAnalysis
-    //
-    // Think of it as a pipeline:  input -> prepare -> LLM (structured) -> output
-    val structuredStrategy = strategy<String, CityAnalysis>("city-analysis") {
-        val preparePrompt by node<String, String> { input -> input }
-
-        val getStructured by nodeLLMRequestStructured<CityAnalysis>()
-
-        // Wire the nodes together: start -> prepare -> structured -> finish
-        nodeStart then preparePrompt then getStructured
-        edge(getStructured forwardTo nodeFinish transformed { it.getOrThrow().data })
-    }
-
     val agentConfig = AIAgentConfig(
         prompt = prompt("city-analyst") {
             system("You are a knowledgeable city analyst. When asked about a city, provide accurate structured data.")
@@ -80,9 +62,12 @@ suspend fun main() {
     )
 
     simpleOpenAIExecutor(apiKey).use { executor ->
+        // structuredOutputWithToolsStrategy<CityAnalysis>() is a built-in Koog strategy
+        // that lets the agent call tools in a loop and then finish with a structured
+        // output of the specified type once the process is complete.
         val agent = AIAgent(
             promptExecutor = executor,
-            strategy = structuredStrategy,
+            strategy = structuredOutputWithToolsStrategy<CityAnalysis>(),
             agentConfig = agentConfig,
         )
 

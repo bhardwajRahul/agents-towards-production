@@ -155,8 +155,8 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
       </picture>
     </a><br>
     <sub><span style="white-space:nowrap;">Kotlin AI Agent Framework</span><br>
-      <a href="https://www.jetbrains.com">
-        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit JetBrains website">
+      <a href="https://kotlinlang.org/?utm_source=github&utm_medium=influencers&utm_campaign=kotlin_nir_supporter_1">
+        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Kotlin website">
       </a>
     </sub>
   </td>
@@ -539,8 +539,8 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     </td>
   </tr>
   <tr>
-    <td>Building AI Agents in Kotlin with Koog <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
-    <td>Build your first AI agent in Kotlin using JetBrains' Koog framework. Step-by-step from hello world to tool calling and structured output in under 30 minutes.</td>
+    <td>Building AI Agents in <a href="https://kotlinlang.org/?utm_source=github&utm_medium=influencers&utm_campaign=kotlin_nir_supporter_1">Kotlin</a> with Koog <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
+    <td>Build your first AI agent in <a href="https://kotlinlang.org/?utm_source=github&utm_medium=influencers&utm_campaign=kotlin_nir_supporter_1">Kotlin</a> using JetBrains' Koog framework. Step-by-step from hello world to tool calling and structured output in under 30 minutes.</td>
     <td align="center">
       <a href="https://github.com/NirDiamant/agents-towards-production/tree/main/tutorials/kotlin-agent-with-koog"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
     </td>

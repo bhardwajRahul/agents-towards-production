@@ -2,7 +2,7 @@
 
 # Building AI Agents in Kotlin with Koog
 
-Build your first AI agent in Kotlin using JetBrains' Koog framework, progressing from a basic prompt-response agent through tool calling and structured output.
+Build your first AI agent in [Kotlin](https://kotlinlang.org/?utm_source=github&utm_medium=influencers&utm_campaign=kotlin_nir_supporter_1) using JetBrains' Koog framework, progressing from a basic prompt-response agent through tool calling and structured output.
 
 ## What You'll Learn
 

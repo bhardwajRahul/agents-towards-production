@@ -2,7 +2,7 @@
 
 # Building AI Agents in Kotlin with Koog
 
-Kotlin powers a significant portion of backend infrastructure across the JVM ecosystem, yet most AI agent tutorials target Python exclusively. This tutorial bridges that gap using Koog, JetBrains' open-source framework for building LLM-powered agents in Kotlin. By the end, you will have built an agent that can reason about tasks, call tools autonomously, and return typed Kotlin objects instead of raw text.
+[Kotlin](https://kotlinlang.org/?utm_source=github&utm_medium=influencers&utm_campaign=kotlin_nir_supporter_1) powers a significant portion of backend infrastructure across the JVM ecosystem, yet most AI agent tutorials target Python exclusively. This tutorial bridges that gap using Koog, JetBrains' open-source framework for building LLM-powered agents in [Kotlin](https://kotlinlang.org/?utm_source=github&utm_medium=influencers&utm_campaign=kotlin_nir_supporter_1). By the end, you will have built an agent that can reason about tasks, call tools autonomously, and return typed Kotlin objects instead of raw text.
 
 The tutorial progresses through three self-contained steps. You will start with a minimal agent that sends a single prompt to an LLM, then extend it with custom tools that the agent invokes on its own, and finally configure structured output so the LLM returns data as a Kotlin data class you can work with directly in code.
 
@@ -418,16 +418,16 @@ Note the `@property:LLMDescription` syntax. In Kotlin data classes, annotations 
 
 ### Configuring the Structured Output Strategy
 
-Unlike the previous steps that used the default strategy, structured output requires a custom strategy graph. The `nodeLLMRequestStructured` node tells Koog to send the data class schema to the model and parse the response into a typed object. The strategy graph connects the input to this node and forwards the result to the finish node.
+Koog provides a built-in `structuredOutputWithToolsStrategy<T>()` function that handles the entire structured output flow. You pass it as the agent's strategy, and Koog takes care of sending the data class schema to the model, letting the agent call tools in a loop if needed, and finishing with a typed response once the process is complete. No custom strategy graph required.
+
+The strategy is available at `ai.koog.agents.ext.agent.structuredOutputWithToolsStrategy` and also includes optional settings such as `fixingParser` and `parallelTools`.
 
 ```kotlin
 // Step3_StructuredOutput.kt (agent setup)
 
 import ai.koog.agents.core.agent.AIAgent
 import ai.koog.agents.core.agent.config.AIAgentConfig
-import ai.koog.agents.core.dsl.builder.forwardTo
-import ai.koog.agents.core.dsl.builder.strategy
-import ai.koog.agents.core.dsl.extension.nodeLLMRequestStructured
+import ai.koog.agents.ext.agent.structuredOutputWithToolsStrategy
 import ai.koog.prompt.dsl.prompt
 import ai.koog.prompt.executor.clients.openai.OpenAIModels
 import ai.koog.prompt.executor.llms.all.simpleOpenAIExecutor
@@ -435,22 +435,6 @@ import ai.koog.prompt.executor.llms.all.simpleOpenAIExecutor
 suspend fun main() {
     val apiKey = System.getenv("OPENAI_API_KEY")
         ?: error("Set the OPENAI_API_KEY environment variable before running this example.")
-
-    // A "strategy" is a graph that tells Koog how to process the request.
-    // This one has two nodes:
-    //   1. preparePrompt -- passes the user's input string through unchanged
-    //   2. getStructured -- sends it to the LLM and parses the response into CityAnalysis
-    //
-    // Think of it as a pipeline:  input -> prepare -> LLM (structured) -> output
-    val structuredStrategy = strategy<String, CityAnalysis>("city-analysis") {
-        val preparePrompt by node<String, String> { input -> input }
-
-        val getStructured by nodeLLMRequestStructured<CityAnalysis>()
-
-        // Wire the nodes together: start -> prepare -> structured -> finish
-        nodeStart then preparePrompt then getStructured
-        edge(getStructured forwardTo nodeFinish transformed { it.getOrThrow().data })
-    }
 
     val agentConfig = AIAgentConfig(
         prompt = prompt("city-analyst") {
@@ -461,9 +445,12 @@ suspend fun main() {
     )
 
     simpleOpenAIExecutor(apiKey).use { executor ->
+        // structuredOutputWithToolsStrategy<CityAnalysis>() is a built-in Koog strategy
+        // that lets the agent call tools in a loop and then finish with a structured
+        // output of the specified type once the process is complete.
         val agent = AIAgent(
             promptExecutor = executor,
-            strategy = structuredStrategy,
+            strategy = structuredOutputWithToolsStrategy<CityAnalysis>(),
             agentConfig = agentConfig,
         )
 
