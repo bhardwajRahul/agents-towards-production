@@ -309,6 +309,24 @@ _Join our growing community discussing cutting-edge AI research, agent developme
 
 ---
 
+<div align="center">
+
+---
+
+## 💼 AI Engineering Roles via the DiamantAI Collective
+
+**I'm partnered with AI-first companies looking for serious engineers.**
+
+*Voice AI · AI agents · Applied LLM · AI fintech · Founding-eng seats*
+
+[![See open roles and apply](https://img.shields.io/badge/%E2%9E%A1%EF%B8%8F%20%20See%20open%20roles%20and%20apply-7c3aed?style=for-the-badge)](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=main-readme--jobs-panel&click=jobs-panel-see-all-roles&target=https%3A%2F%2Fdiamant-ai.com%2Fjobs&text=See%20open%20roles%20and%20apply)
+
+---
+
+</div>
+
+---
+
 ## ✨ Introduction
 **Agents Towards Production** is your hands-on guide to every building block of a GenAI agent stack.  
 All knowledge is delivered through runnable tutorials covering orchestration, memory, observability, deployment, security, and more. Each tutorial lives in its own folder with ready-to-run notebooks or code files, so you can move from concept to working agent in minutes.
