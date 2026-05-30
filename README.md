@@ -344,6 +344,17 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
 
 ---
 
+## 📑 Related deep-dive write-ups
+
+Free long-form guides on DiamantAI that complement these production tutorials:
+
+- [Why AI agents need to check their own work](https://diamant-ai.com/blog/why-ai-agents-need-to-check-their-own-work)
+- [This simple trick makes AI agents far more reliable](https://diamant-ai.com/blog/this-simple-trick-makes-ai-agents-far-more-reliable)
+- [Memory optimization strategies in AI agents](https://diamant-ai.com/blog/memory-optimization-strategies-in-ai-agents)
+- [**Browse all 130+ tutorials →**](https://diamant-ai.com/tutorials) · [**Read the blog →**](https://diamant-ai.com/blog)
+
+---
+
 ## 🏗️ AI Agent Architecture
 
 <div align="center">
