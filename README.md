@@ -55,6 +55,8 @@ A 400-page visual guide to 22 RAG techniques. If you're shipping agents that nee
 
 <img src="images/collective-banner.png" alt="DiamantAI Collective - AI engineering jobs" width="600">
 
+</div>
+
 ## 💎 Tutorial Sponsors
 
 <p align="center"><em>
@@ -715,8 +717,6 @@ python app.py
 [![See open jobs and apply](https://img.shields.io/badge/%E2%9E%A1%EF%B8%8F%20%20See%20open%20jobs%20and%20apply-7c3aed?style=for-the-badge)](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=main-readme--jobs-panel&click=jobs-panel-see-all-roles&target=https%3A%2F%2Fdiamant-ai.com%2Fjobs&text=See%20open%20jobs%20and%20apply)
 
 ---
-
-</div>
 
 ## 🤝 Contributing
 
