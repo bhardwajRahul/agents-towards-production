@@ -55,16 +55,6 @@ A 400-page visual guide to 22 RAG techniques. If you're shipping agents that nee
 
 <img src="images/collective-banner.png" alt="DiamantAI Collective - AI engineering jobs" width="600">
 
-## 💼 Apply for open AI engineering jobs
-
-**AI-first companies are hiring through the DiamantAI Collective.**
-
-[![See open jobs and apply](https://img.shields.io/badge/%E2%9E%A1%EF%B8%8F%20%20See%20open%20jobs%20and%20apply-7c3aed?style=for-the-badge)](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=main-readme--jobs-panel&click=jobs-panel-see-all-roles&target=https%3A%2F%2Fdiamant-ai.com%2Fjobs&text=See%20open%20jobs%20and%20apply)
-
----
-
-</div>
-
 ## 💎 Tutorial Sponsors
 
 <p align="center"><em>
@@ -341,18 +331,6 @@ _Join our growing community discussing cutting-edge AI research, agent developme
 ## ✨ Introduction
 **Agents Towards Production** is your hands-on guide to every building block of a GenAI agent stack.  
 All knowledge is delivered through runnable tutorials covering orchestration, memory, observability, deployment, security, and more. Each tutorial lives in its own folder with ready-to-run notebooks or code files, so you can move from concept to working agent in minutes.
-
----
-
-## 📑 Related deep-dive write-ups
-
-Free long-form guides on DiamantAI that complement these production tutorials:
-
-- [Why AI agents need to check their own work](https://diamant-ai.com/blog/why-ai-agents-need-to-check-their-own-work)
-- [This simple trick makes AI agents far more reliable](https://diamant-ai.com/blog/this-simple-trick-makes-ai-agents-far-more-reliable)
-- [Memory optimization strategies in AI agents](https://diamant-ai.com/blog/memory-optimization-strategies-in-ai-agents)
-- [Agent Memory Techniques](https://github.com/NirDiamant/Agent_Memory_Techniques) — 30 runnable notebooks on giving production agents memory: buffers, vector stores, knowledge graphs, Mem0, MemGPT/Letta, Zep, and Graphiti
-- [**Browse all 130+ tutorials →**](https://diamant-ai.com/tutorials) · [**Read the blog →**](https://diamant-ai.com/blog)
 
 ---
 
@@ -729,6 +707,16 @@ python app.py
 - [Hands-On Large Language Models](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=agents-towards-production--readme&click=amazon-product&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2F1098150961%3Ftag%3Ddiamantai-atp-20&text=Hands-On%20Large%20Language%20Models) by Jay Alammar and Maarten Grootendorst. Visual, practical LLM walkthroughs.
 - [Natural Language Processing with Transformers](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=agents-towards-production--readme&click=amazon-product&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2F1098136799%3Ftag%3Ddiamantai-atp-20&text=Natural%20Language%20Processing%20with%20Transformers) by Lewis Tunstall, Leandro von Werra, and Thomas Wolf. From the Hugging Face team.
 - [Designing Machine Learning Systems](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=agents-towards-production--readme&click=amazon-product&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2F1098107969%3Ftag%3Ddiamantai-atp-20&text=Designing%20Machine%20Learning%20Systems) by Chip Huyen. ML systems in production, still the standard reference.
+
+## 💼 Apply for open AI engineering jobs
+
+**AI-first companies are hiring through the DiamantAI Collective.**
+
+[![See open jobs and apply](https://img.shields.io/badge/%E2%9E%A1%EF%B8%8F%20%20See%20open%20jobs%20and%20apply-7c3aed?style=for-the-badge)](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=main-readme--jobs-panel&click=jobs-panel-see-all-roles&target=https%3A%2F%2Fdiamant-ai.com%2Fjobs&text=See%20open%20jobs%20and%20apply)
+
+---
+
+</div>
 
 ## 🤝 Contributing
 
