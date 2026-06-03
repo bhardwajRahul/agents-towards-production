@@ -14,7 +14,6 @@
 [![Twitter](https://img.shields.io/twitter/follow/NirDiamantAI?label=Follow%20@NirDiamantAI&style=social)](https://twitter.com/NirDiamantAI)
 [![Discord](https://img.shields.io/badge/Discord-Join%20our%20community-7289da?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/cA6Aa4uyDX)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4)](https://github.com/sponsors/NirDiamant)
-[![DiamantAI Collective is hiring](https://img.shields.io/badge/%F0%9F%92%BC%20Hiring-DiamantAI%20Collective-7c3aed?style=flat-square)](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=main-readme--hiring-badge&click=top-badge-hiring&target=https%3A%2F%2Fdiamant-ai.com%2Fjobs&text=Hiring%20Badge)
 
 </div>
 
@@ -24,14 +23,14 @@
 
 ## 📖 Books in the DiamantAI Series
 
-<a href="https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=agents-towards-production--readme&click=book-buy-amazon-image&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0D76734SZ%3Ftag%3Ddiamantai-atp-20&text=Best%20Seller%20Image"><img src="images/rag_book_best_seller.png" alt="RAG Made Simple - Amazon bestseller in Generative AI" width="500"></a>
+<a href="https://diamant-ai.com/rag-made-simple"><img src="images/rag_book_best_seller.png" alt="RAG Made Simple - Amazon bestseller in Generative AI" width="500"></a>
 
-**[RAG Made Simple](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=agents-towards-production--readme&click=book-buy-amazon-title&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0D76734SZ%3Ftag%3Ddiamantai-atp-20&text=RAG%20Made%20Simple)** - the production reference for RAG systems
+**[RAG Made Simple](https://diamant-ai.com/rag-made-simple)** - the production reference for RAG systems
 A 400-page visual guide to 22 RAG techniques. If you're shipping agents that need to retrieve and ground on real data, this is the structured reference behind the patterns in this repo.
 *1,500+ copies sold · Hit #1 in Generative AI on Amazon at launch · ⭐ 4.4 stars*
-**Kindle $9.99 · Paperback $24.99 · Free with Kindle Unlimited**
+**PDF + EPUB · 33% off at checkout with code RAGKING (launch offer)**
 
-👉 [**Get RAG Made Simple on Amazon**](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=agents-towards-production--readme&click=book-buy-amazon-cta&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0D76734SZ%3Ftag%3Ddiamantai-atp-20&text=Get%20RAG%20Made%20Simple)
+👉 [**Get RAG Made Simple (33% off with code RAGKING)**](https://diamant-ai.com/rag-made-simple)
 
 ---
 
@@ -46,16 +45,7 @@ A 400-page visual guide to 22 RAG techniques. If you're shipping agents that nee
 
 <div align="center">
 
-
 > **28 production-grade tutorials** covering stateful workflows, vector memory, web search APIs, Docker deployment, security guardrails, GPU scaling, multi-agent coordination, and more.
-
-<div align="center">
-
----
-
-<img src="images/collective-banner.png" alt="DiamantAI Collective - AI engineering jobs" width="600">
-
-</div>
 
 ## 💎 Tutorial Sponsors
 
@@ -286,8 +276,6 @@ Click a logo to visit their website.
 
 </div>
 
-
-
 <div align="center">
 
 ## 📫 Stay Updated!
@@ -324,9 +312,6 @@ Stay connected with the latest in GenAI and agent development:
 _Join our growing community discussing cutting-edge AI research, agent development, and production insights!_
 
 </div>
-
----
-
 
 ---
 
@@ -710,12 +695,6 @@ python app.py
 - [Natural Language Processing with Transformers](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=agents-towards-production--readme&click=amazon-product&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2F1098136799%3Ftag%3Ddiamantai-atp-20&text=Natural%20Language%20Processing%20with%20Transformers) by Lewis Tunstall, Leandro von Werra, and Thomas Wolf. From the Hugging Face team.
 - [Designing Machine Learning Systems](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=agents-towards-production--readme&click=amazon-product&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2F1098107969%3Ftag%3Ddiamantai-atp-20&text=Designing%20Machine%20Learning%20Systems) by Chip Huyen. ML systems in production, still the standard reference.
 
-## 💼 Apply for open AI engineering jobs
-
-**AI-first companies are hiring through the DiamantAI Collective.**
-
-[![See open jobs and apply](https://img.shields.io/badge/%E2%9E%A1%EF%B8%8F%20%20See%20open%20jobs%20and%20apply-7c3aed?style=for-the-badge)](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=main-readme--jobs-panel&click=jobs-panel-see-all-roles&target=https%3A%2F%2Fdiamant-ai.com%2Fjobs&text=See%20open%20jobs%20and%20apply)
-
 ---
 
 ## 🤝 Contributing
@@ -749,7 +728,6 @@ This project is licensed under a custom non-commercial license - see the [LICENS
 <br>
 
 ![](https://europe-west1-atp-views-tracker.cloudfunctions.net/working-analytics?notebook=main-readme)
-
 
 <p><i>Keywords: AI Agents, Production Deployment, LLM, Orchestration, Multi-agent Systems, Memory Systems, Monitoring, Security, Observability, Agent Frameworks, Infrastructure, Serverless, Enterprise AI, Tool Integration</i></p>
 
