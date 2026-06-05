@@ -32,6 +32,8 @@ A 400-page visual guide to 22 RAG techniques. If you're shipping agents that nee
 
 👉 [**Get RAG Made Simple (33% off with code RAGKING)**](https://diamant-ai.com/rag-made-simple?code=RAGKING)
 
+📣 *Teach, write, or run a dev community? Earn 30% recommending RAG Made Simple to your audience: [become an affiliate](https://nirdiamant.gumroad.com/affiliates).*
+
 ---
 
 **[Prompt Engineering: Master the Art of AI Interaction](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=agents-towards-production--readme&click=book-buy-pe&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0DZ85RPB5%3Ftag%3Ddiamantai-atp-20&text=Prompt%20Engineering)** - the prompting foundation
