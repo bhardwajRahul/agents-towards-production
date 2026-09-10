@@ -36,6 +36,11 @@ def ingest_corpus(ctx: inngest.ContextSync) -> dict:
     """
     doc_ids = ctx.step.run("list-documents", lambda: sorted(CORPUS))
 
+    # Fan out by event rather than step.invoke. invoke waits for the child and, if the
+    # child fails, raises a NonRetriableError in this run. Waiting and shared fate are
+    # both things per-document isolation exists to avoid. See notebook section 9, and
+    # https://www.inngest.com/docs/guides/invoking-functions-directly?guide=python
+    #
     # Chunked sends keep a single step payload small.
     for i in range(0, len(doc_ids), 500):
         batch = doc_ids[i : i + 500]
@@ -79,6 +84,8 @@ def ingest_document(ctx: inngest.ContextSync) -> dict:
             "flag-for-review",
             inngest.Event(name="rag/document.needs_review", data={"doc_id": doc_id}),
         )
+        # Waiting on a person, not on another function, so wait_for_event rather than
+        # step.invoke: no child function's return value would carry a human decision.
         approval = ctx.step.wait_for_event(
             "await-approval",
             event="rag/document.approved",
