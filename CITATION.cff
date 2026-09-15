@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Agents Towards Production: An Open-Source Playbook for Production-Grade GenAI Agents"
+version: "1.0.0"
+date-released: "2025-06-16"
+authors:
+  - family-names: "Diamant"
+    given-names: "Nir"
+repository-code: "https://github.com/NirDiamant/agents-towards-production"
+url: "https://github.com/NirDiamant/agents-towards-production"
+abstract: >-
+  An open-source playbook of end-to-end, code-first tutorials for turning
+  GenAI agents into real-world products. Independent tutorial tracks cover
+  orchestration, memory, retrieval, security and guardrails, observability
+  and tracing, evaluation, containerized deployment, GPU serving,
+  fine-tuning and user interfaces.
+keywords:
+  - ai-agents
+  - production
+  - mlops
+  - deployment
+  - observability
+  - guardrails
+  - llm
+  - agentic-ai
+  - tutorials
+license: LicenseRef-Custom-NonCommercial
