@@ -8,6 +8,11 @@ Most RAG tutorials assume your documents made it into the index. This one is abo
 when they do not: a run over thousands of documents that dies two thirds of the way through, and a
 retry that re-parses and re-embeds everything it already paid for.
 
+![What the naive retry costs](assets/retry-cost.svg)
+
+Every number in that chart comes from section 4 of the notebook, which you can run with no API key
+and no account.
+
 ## 🎯 What You'll Learn
 
 - **What Inngest actually is**, from the events-functions-steps model up, in section 6. No prior

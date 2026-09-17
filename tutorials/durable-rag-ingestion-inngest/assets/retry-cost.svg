@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="356" viewBox="0 0 940 356" font-family="Helvetica, Arial, sans-serif">
+<rect width="940" height="356" fill="#ffffff"/>
+<text x="470" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">What the Retry Costs</text>
+<text x="470" y="52" text-anchor="middle" font-size="12" fill="#475569">Embedding calls billed, 5,000 document corpus, failure at document 3,000</text>
+<line x1="200.0" y1="78" x2="200.0" y2="230" stroke="#e2e8f0" stroke-width="1"/>
+<text x="200.0" y="248" text-anchor="middle" font-size="11" fill="#64748b">0</text>
+<line x1="370.0" y1="78" x2="370.0" y2="230" stroke="#e2e8f0" stroke-width="1"/>
+<text x="370.0" y="248" text-anchor="middle" font-size="11" fill="#64748b">4,000</text>
+<line x1="540.0" y1="78" x2="540.0" y2="230" stroke="#e2e8f0" stroke-width="1"/>
+<text x="540.0" y="248" text-anchor="middle" font-size="11" fill="#64748b">8,000</text>
+<line x1="710.0" y1="78" x2="710.0" y2="230" stroke="#e2e8f0" stroke-width="1"/>
+<text x="710.0" y="248" text-anchor="middle" font-size="11" fill="#64748b">12,000</text>
+<line x1="880.0" y1="78" x2="880.0" y2="230" stroke="#e2e8f0" stroke-width="1"/>
+<text x="880.0" y="248" text-anchor="middle" font-size="11" fill="#64748b">16,000</text>
+<text x="184" y="107" text-anchor="end" font-size="13" font-weight="bold" fill="#0f172a">Run 1</text>
+<text x="184" y="123" text-anchor="end" font-size="11" fill="#64748b">dies at document 3,000</text>
+<path d="M 200.0,96 H 567.2 Q 571.2,96 571.2,100 V 116 Q 571.2,120 567.2,120 H 200.0 Z" fill="#94a3b8"/>
+<text x="581.2" y="113" font-size="13" font-weight="bold" fill="#0f172a">8,735</text>
+<text x="184" y="171" text-anchor="end" font-size="13" font-weight="bold" fill="#0f172a">Run 2</text>
+<text x="184" y="187" text-anchor="end" font-size="11" fill="#64748b">restarts from the top</text>
+<rect x="200.0" y="160" width="371.2" height="24" fill="#dc2626"/>
+<text x="212.0" y="176" font-size="11" font-weight="bold" fill="#ffffff">8,735 already paid for in run 1</text>
+<path d="M 573.2,160 H 817.3 Q 821.3,160 821.3,164 V 180 Q 821.3,184 817.3,184 H 573.2 Z" fill="#94a3b8"/>
+<text x="831.3" y="177" font-size="13" font-weight="bold" fill="#0f172a">14,571</text>
+<line x1="200" y1="230" x2="880" y2="230" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="200" y="267" width="11" height="11" rx="2" fill="#94a3b8"/>
+<text x="218" y="276" font-size="12" fill="#475569">work the corpus needs</text>
+<rect x="390" y="267" width="11" height="11" rx="2" fill="#dc2626"/>
+<text x="408" y="276" font-size="12" fill="#475569">work billed a second time</text>
+<line x1="200" y1="290" x2="880" y2="290" stroke="#e2e8f0" stroke-width="1"/>
+<text x="200" y="314" font-size="17" font-weight="bold" fill="#0f172a">23,306</text>
+<text x="200" y="332" font-size="11" fill="#64748b">billed across both runs</text>
+<text x="427" y="314" font-size="17" font-weight="bold" fill="#0f172a">14,571</text>
+<text x="427" y="332" font-size="11" fill="#64748b">the corpus actually needs</text>
+<text x="653" y="314" font-size="17" font-weight="bold" fill="#dc2626">8,735</text>
+<text x="653" y="332" font-size="11" fill="#64748b">paid for twice, 60% overspend</text>
+</svg>
