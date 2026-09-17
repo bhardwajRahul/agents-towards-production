@@ -234,6 +234,23 @@ Click a logo to open the tutorial. Use Ctrl‑/⌘‑click to keep this page ope
     </sub>
   </td>
 
+  <!-- Inngest -->
+  <td width="200" valign="bottom">
+    <a href="tutorials/durable-rag-ingestion-inngest" title="Open Inngest tutorial">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_inngest_white.svg">
+        <img src="assets/repos_images/sponsors_logos/trimmed_padded/trimmed_padded_inngest.svg"
+             height="44" style="max-width:180px;" alt="Inngest - Durable execution platform for AI agents and data pipelines, with step-level retries, flow control and replay">
+      </picture>
+    </a><br>
+    <sub><span style="white-space:nowrap;">Durable Execution</span><br>
+      <a href="https://www.inngest.com/?utm_source=diamantai&utm_medium=github&utm_campaign=durable-rag-ingestion&utm_content=readme_placement">
+        <img src="assets/repos_images/visit-site-badge.svg" width="56" height="16" alt="Visit Inngest durable execution platform website">
+      </a>
+    </sub>
+  </td>
+
 </tr>
 </table>
 
@@ -440,6 +457,13 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <th width="30%">Tutorial</th>
     <th width="50%">Description</th>
     <th width="20%">View</th>
+  </tr>
+  <tr>
+    <td>Durable RAG Ingestion (Inngest) <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
+    <td>Build an ingestion pipeline that survives partial failures, re-runs and backfills. Measure what a failed run at document 3,000 of 5,000 actually costs in duplicate chunks and re-billed embeddings, then fix it with idempotent upserts, durable steps, per-document fan-out, throttling and per-tenant concurrency, and a human review gate.</td>
+    <td align="center">
+      <a href="tutorials/durable-rag-ingestion-inngest"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
   </tr>
   <tr>
     <td>Production-Ready RAG Agents with Contextual AI (Contextual AI)</td>
